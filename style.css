@@ -1,0 +1,147 @@
+body {
+    display: flex;
+    justify-content: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.container {
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+    background-color: #9499FF;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 0 auto;
+    box-shadow: 5px 5px black;
+}
+
+.input #input-task {
+    width: 80%;
+    padding: 0.5em;
+    font-size: 1em;
+    margin: .5em;
+    box-shadow: 2px 2px 5px black;
+    border-radius: 5px;
+}
+
+button {
+    width: auto;
+    border-radius: 5px;
+    color: #000000ad;
+    background-color: #05da50f2;
+    box-shadow: 1px 1px 2px black;
+    cursor: pointer;
+    font-weight: 550;
+}
+
+#add-btn {
+    padding: 0.5em .8em;
+    font-size: 1em;
+    box-shadow: 1px 1px 5px black;
+}
+
+.select {
+    margin: 1em;
+}
+
+.select label {
+    font-size: 1.1em;
+    font-weight: 600;
+    margin: 0.8em;
+}
+
+.select #mode {
+    width: 25%;
+    padding: 0.5em;
+    font-weight: 550;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.priority {
+    font-weight: bold;
+    margin-top: 5px;
+    text-align: left;
+    cursor: pointer;
+}
+
+.priority.high {
+    color: #e57373;
+}
+
+.priority.low {
+    color: #81c784;
+}
+
+.task-output {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    border-radius: 5px;
+    /* margin-top: 20px; */
+}
+
+#todo-list {
+    list-style-type: none;
+    padding: 0;
+    width: 100%;
+}
+
+#todo-list li {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: white;
+    border: 1px solid #ddd;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px black;
+    text-transform: capitalize;
+}
+
+#todo-list li .task {
+    text-align: left;
+    word-break: break-all;
+    margin-bottom: 5px;
+    display: block;
+}
+
+
+.task-buttons button {
+    margin: 0.5em 0.8em 0 0;
+    padding: 0.3em .4em;
+    /* font-size: 1em; */
+}
+
+.delete-button {
+    background-color: #f72505f2 !important;
+}
+
+.completed-task .complete-button::after {
+    content: '\2713';
+    color: #ff0404;
+    font-weight: 600;
+    margin-left: 5px;
+}
+
+#done {
+    background: none;
+    border: 3px solid salmon;
+}
+
+.filter {
+    display: flex;
+    justify-content: end;
+    margin-right: 1em;
+}
+
+#filter-btn {
+    background: none;
+    /* box-shadow: none; */
+    border: none;
+    font-size: 1em;
+}
