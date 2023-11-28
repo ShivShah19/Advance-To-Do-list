@@ -1,6 +1,6 @@
 # ToDo List Web App
 
-A simple web application to manage your tasks with priority levels. You can add tasks, mark them as complete, delete tasks, and filter tasks by priority and completion status.
+A simple web application to manage your tasks with priority levels. You can add tasks, mark them as complete, delete tasks, and filter tasks by priority and completion status. and our tasks persist even after refreshing the page or closing the browser.
 
 ## Features
 
@@ -13,8 +13,11 @@ A simple web application to manage your tasks with priority levels. You can add 
 - **Delete Task:** Remove tasks from the list that are no longer needed.
 
 - **Filtering:**
+
   - **By Priority:** Filter tasks based on priority levels (high or low).
   - **By Completion:** Filter tasks based on completion status (complete or incomplete).
+
+- **Local Storage:** Your tasks persist even after refreshing the page or closing the browser, thanks to local storage.
 
 ## Technologies Used
 
@@ -47,6 +50,18 @@ A simple web application to manage your tasks with priority levels. You can add 
 5. **Filtering Tasks:**
    - priority to show tasks based on priority level.
    - completion to show tasks based on completion status.
+
+## Persistence with Local Storage
+
+This ToDo list web app utilizes local storage to ensure that your tasks persist even if you refresh the site or close the browser. The tasks are stored locally on your device, allowing you to access your to-do list across sessions.
+
+### How it Works
+
+When you add, edit, complete, or delete a task, the web app updates the local storage with the latest list of tasks. Upon refreshing the page or returning to the app, it retrieves the tasks from local storage and displays them, maintaining your latest changes.
+
+### Note
+
+Local storage is specific to the device and browser you are using. If you switch browsers or use a different device, your tasks may not be synchronized.
 
 ## Demo
 
