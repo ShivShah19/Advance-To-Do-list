@@ -45,12 +45,12 @@ A simple web application to manage your tasks with priority levels. You can add 
    - Click the "Delete" button next to the task you want to remove.
 
 5. **Filtering Tasks:**
-   - Use the priority filter to show tasks based on priority level.
-   - Use the completion filter to show tasks based on completion status.
+   - priority to show tasks based on priority level.
+   - completion to show tasks based on completion status.
 
 ## Demo
 
-Include a link to a live demo or screenshots of your application.
+![Demo](./image/Screenshot.png)
 
 ## Installation
 
